@@ -1,0 +1,6 @@
+flysystem:
+    storages:
+        product.storage:
+            adapter: 'local'
+            options:
+                directory: '%kernel.project_dir%/public/upload/images/products'
